@@ -33,7 +33,7 @@
     <td>
         <font color="purple">
             <form>
-                Please enter your name: <input type="text" required placeholder="Specify first and last name">
+                <b>Please enter your name: </b> <input type="text" required placeholder="Specify first and last name">
             </form>
         </font>
     </td>
@@ -43,7 +43,7 @@
     <td>
         <font color="purple">
             <form>
-                Please enter your email: <input type="email" required placeholder="Specify valid email">
+                <b>Please enter your email: </b> <input type="email" required placeholder="Specify valid email">
             </form>
         </font>
     </td>
@@ -53,7 +53,7 @@
     <td>
         <font color="purple">
             <form>
-                Please enter your password: <input type="password" pattern="[a-zA-Z]{6-20}" required placeholder="Minimum length of 6">
+                <b>Please enter your password:</b> <input type="password" pattern="[a-zA-Z]{6-20}" required placeholder="Minimum length of 6">
             </form>
         </font>
     </td>
@@ -63,7 +63,7 @@
     <td>
         <font color="purple">
             <form>
-                Please enter your telephone: <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="xxx-xxx-xxxx">
+                <b>Please enter your telephone: </b> <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="xxx-xxx-xxxx">
             </form>
         </font>
     </td>
@@ -73,15 +73,57 @@
     <td>
         <font color="purple">
             <form>
-                Which language do you know?
+                <b>Which language do you know?</b>
                 <br>
-                <input type="radio"> <font color="purple">Java</font>
-                <input type="radio"> <font color="purple">VB</font>
-                <input type="radio"> <font color="purple">Python</font>
+                <input type="radio"> <font color="black">C++</font>
+                <input type="radio"> <font color="black">VB</font>
+                <input type="radio"> <font color="black">Python</font>
             </form>
         </font>
     </td>
 </table>
+
+<table style="width: 100%" bgcolor="#fa8072">
+    <td>
+        <font color="purple">
+            <form>
+                <b>Your Gender?</b>
+                <br>
+                <input type="radio"> <font color="black">Male</font>
+                <input type="radio"> <font color="black">Female</font>
+            </form>
+        </font>
+    </td>
+</table>
+
+<table style="width: 100%" bgcolor="#fa8072">
+    <td>
+        <font color="purple">
+            <form>
+                <b>
+                    Your DOB:
+                </b>
+                <input type="date" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d">
+            </form>
+        </font>
+    </td>
+    <td>
+        <font COLOR="purple">
+
+            <label>
+                <b>
+                You domicile:
+                </b>
+            </label>
+            <select>
+                <option>London</option>
+                <option>Paris</option>
+                <option>New York</option>
+            </select>
+        </font>
+    </td>
+</table>
+
 
 
 
