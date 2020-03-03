@@ -1,0 +1,36 @@
+body{
+    background-color: antiquewhite;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+    width: 10%;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px green;
+    width: 40%;
+}
+
+td{
+    color: deeppink;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:visited{
+    color: magenta;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: gray;
+}
