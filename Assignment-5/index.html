@@ -1,133 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style>
+    <style>
 
-    table, th, td {
-        border: 1px solid black;
-        border-collapse: collapse;
-    }
-    th, td {
-        padding: 15px;
-    }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+        }
 
-</style>
+    </style>
     <meta charset="UTF-8">
     <title>Assignment 5</title>
 </head>
 <body>
 
 
-<table style="width: 100%">
-    <tr bgcolor="gray">
+
+<table style="height:100%;width:100%; position: absolute; top: 0; bottom: 0; left: 0; right: 0;border:1px solid" bgcolor="#ffc0cb" border="0">
+    <tr style="height: 10%" bgcolor="gray">
         <td>
-            <img src="jobs.jpg"height="100" width="100">
-        </td>
-        <td>
-            <font color="#32cd32">Register to our job portal</font>
+            <img src="jobs.jpg" height="100" width="100" align="left">
+            <h1 align="center"><font color="#32cd32">Register to our job portal</font></h1>
+
+
         </td>
     </tr>
-</table>
 
-<table style="width: 100%" bgcolor="#fa8072">
     <td>
         <font color="purple">
             <form>
-                <b>Please enter your name: </b> <input type="text" required placeholder="Specify first and last name">
-            </form>
-        </font>
-    </td>
-</table>
-
-<table style="width: 100%" bgcolor="#fa8072">
-    <td>
-        <font color="purple">
-            <form>
-                <b>Please enter your email: </b> <input type="email" required placeholder="Specify valid email">
-            </form>
-        </font>
-    </td>
-</table>
-
-<table style="width: 100%" bgcolor="#fa8072">
-    <td>
-        <font color="purple">
-            <form>
-                <b>Please enter your password:</b> <input type="password" pattern="[a-zA-Z]{6-20}" required placeholder="Minimum length of 6">
-            </form>
-        </font>
-    </td>
-</table>
-
-<table style="width: 100%" bgcolor="#fa8072">
-    <td>
-        <font color="purple">
-            <form>
-                <b>Please enter your telephone: </b> <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="xxx-xxx-xxxx">
-            </form>
-        </font>
-    </td>
-</table>
-
-<table style="width: 100%" bgcolor="#fa8072">
-    <td>
-        <font color="purple">
-            <form>
+                <hr>
+                <b>Please enter your name: </b> <input type="text" required placeholder="Specify first and last name"><br><br><hr>
+                <b>Please enter your email: </b> <input type="email" required placeholder="Specify valid email"><br><br><hr>
+                <b>Please enter your password:</b> <input type="password" pattern="[a-zA-Z]{6-20}" required placeholder="Minimum length of 6"><br><br><hr>
+                <b>Please enter your telephone: </b> <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="xxx-xxx-xxxx"><br><br><hr>
                 <b>Which language do you know?</b>
                 <br>
-                <input type="radio"> <font color="black">C++</font>
-                <input type="radio"> <font color="black">VB</font>
-                <input type="radio"> <font color="black">Python</font>
-            </form>
-        </font>
-    </td>
-</table>
-
-<table style="width: 100%" bgcolor="#fa8072">
-    <td>
-        <font color="purple">
-            <form>
+                <label><input type="radio" name="language" value="c++" required> <font color="black">C++</font></label>
+                <label><input type="radio" name="language" value="vb"> <font color="black">VB</font></label>
+                <label><input type="radio" name="language" value="python"> <font color="black">Python</font></label><br><br><hr>
                 <b>Your Gender?</b>
                 <br>
-                <input type="radio"> <font color="black">Male</font>
-                <input type="radio"> <font color="black">Female</font>
-            </form>
-        </font>
-    </td>
-</table>
-
-<table style="width: 100%" bgcolor="#fa8072">
-    <td>
-        <font color="purple">
-            <form>
+                <input type="radio" name="gender" value="male" required> <font color="black">Male</font>
+                <input type="radio" name="gender" value="female"> <font color="black">Female</font><br><br><hr>
                 <b>
                     Your DOB:
                 </b>
-                <input type="date" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d">
+                <input type="date" required pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d">
+                <label>
+                    <b>
+                        You domicile:
+                    </b>
+                </label>
+                <select required>
+                    <option>London</option>
+                    <option>Paris</option>
+                    <option>New York</option>
+                </select><br><br><hr>
+                <b>
+                    Your address:
+                </b>
+                <textarea rows="4" cols="50" required>
+                    Your permanent address
+                </textarea><br><br><hr>
+                <b>
+                Attach Your CV:
+                </b>
+                <input type="file" required><br><br>
+                <button type="submit" value="Register">Register</button>
+                <button type="reset" value="Fill Again">Fill Again</button>
             </form>
         </font>
     </td>
-    <td>
-        <font COLOR="purple">
 
-            <label>
-                <b>
-                You domicile:
-                </b>
-            </label>
-            <select>
-                <option>London</option>
-                <option>Paris</option>
-                <option>New York</option>
-            </select>
-        </font>
-    </td>
 </table>
-
-
-
-
-
 
 </body>
 </html>
