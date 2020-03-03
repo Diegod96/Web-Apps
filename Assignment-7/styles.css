@@ -34,3 +34,7 @@ a:hover{
     text-decoration: underline;
     background-color: gray;
 }
+
+hr{
+    border: 3px solid green;
+}
