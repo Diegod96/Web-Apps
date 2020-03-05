@@ -1,0 +1,33 @@
+
+
+body{
+    background-color: hotpink;
+}
+
+h5{
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+}
+
+h1{
+    color: green;
+    background-color: yellow;
+    font-style: italic;
+    position: absolute;
+    top: 300px;
+    word-wrap: break-word;
+    width: 120px;
+}
+
+h2{
+    color: yellow;
+    background-color: green;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    width: 200px    ;
+
+}

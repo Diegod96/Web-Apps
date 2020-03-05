@@ -3,17 +3,18 @@ body{
 }
 
 h1{
-    color: green;
+    color: hotpink;
     background-color: yellow;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h2{
-    color: yellow;
+    color: orangered;
     background-color: green;
     font-family: Arial, Helvetica, sans-serif;
-
+    text-decoration: line-through;
+    font-style: italic;
 }
 
 h3{
@@ -25,7 +26,7 @@ h3{
 h4{
     color: white;
     background-color: black;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 h5{
