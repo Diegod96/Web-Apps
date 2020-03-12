@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="loginStyles.css">
+</head>
+<body>
+
+<div class="header">
+    <img id="img1" src="images/DiamondPattern.jpg">
+    <img id="img2" src="images/eConnect.png">
+</div>
+
+<div class="form">
+    <br><br>
+    <table class="login">
+        <tr>
+            <th id="loginHeader">User Login</th>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    User ID: <input type="text" required placeholder="User ID"><br><br>
+                    Password: <input type="password" required placeholder="Password"><br><br>
+                    <button type="submit">Login</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+
+    <table class="register">
+        <tr>
+            <th id="registrationHeader">User Registration</th>
+        </tr>
+        <tr>
+            <td>
+                <form id="registrationInfo">
+                    Your Full Name: <input type="text" required placeholder="Full Name"><br><br>
+                    Your Email Address: <input type="email" required pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="Password"><br><br>
+                    Upload Profile Picture: <input type="file" required placeholder="No file choosen"><br><br>
+                    <button type="submit">Register</button>
+                </form>
+            </td>
+        </tr>
+
+    </table>
+
+
+</div>
+
+<div class="footer">
+
+</div>
+
+</body>
+</html>

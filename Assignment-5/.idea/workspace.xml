@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa3cf99a-4471-446d-b85d-baffae97e0bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-8/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment-7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,6 +66,7 @@
       <workItem from="1582639900857" duration="4112000" />
       <workItem from="1582765950594" duration="79000" />
       <workItem from="1583175490167" duration="3642000" />
+      <workItem from="1584017169936" duration="1215000" />
     </task>
     <task id="LOCAL-00001" summary="Done">
       <created>1583276365550</created>
