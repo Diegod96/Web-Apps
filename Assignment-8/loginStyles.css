@@ -1,0 +1,56 @@
+
+div.header{
+    background-color: blanchedalmond;
+    height: 100px;
+}
+
+#img1{
+    padding: 5px;
+    height: 90px;
+    width: 1500px;
+}
+
+#img2{
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+div.form{
+    background-color: grey;
+    height: 600px;
+}
+
+table.login{
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+#loginHeader{
+    background-color: black;
+    color: yellow;
+}
+
+table.register{
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#registrationHeader{
+    background-color: black;
+    color: yellow;
+}
+
+div.footer{
+    background-color: blanchedalmond;
+    height: 300px;
+}
