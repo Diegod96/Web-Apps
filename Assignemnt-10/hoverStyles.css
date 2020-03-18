@@ -1,0 +1,14 @@
+
+
+
+body.page{
+    background-color: antiquewhite;
+}
+
+p.title{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+
+}
