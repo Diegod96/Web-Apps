@@ -1,0 +1,25 @@
+
+
+
+.body{
+    background-color: antiquewhite;
+}
+
+p.prompt{
+    background: none;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+} 
+
+p.header{
+    text-align: center;
+}
+
+p.factorials{
+    text-align: center;
+    white-space: pre-line;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+
+}
