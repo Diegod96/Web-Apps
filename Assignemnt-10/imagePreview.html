@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Preview</title>
+    <link rel="stylesheet" href="imagePreviewStyles.css">
+</head>
+
+<body class="body">
+
+    <div style="text-align: center;">
+        <h2>Image Preview</h2>
+    </div>
+
+    <div class=row>
+        <div class="column">
+            <img class="img" src="images/p_red_car.jpg" alt="Red Car" style="width: 100%;" onclick="changeImage(this);">
+        </div>
+        <div class="column">
+            <img class="img" src="images/07car1.jpg" alt="Blue Car" style="width: 100%;" onclick="changeImage(this);">
+        </div>
+        <div class="column">
+            <img class="img" src="images/2019_genesis_g80_angularfront.jpg" alt="White Car" style="width: 100%;" onclick="changeImage(this);">
+        </div>
+    </div>
+
+    <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img class="img" id="expandedImg" style="width: 100%;">
+        <div id="imgtext"></div>
+    </div>
+
+    
+
+
+
+
+
+    <script src="imagePreview.js"></script>
+</body>
+</html>
