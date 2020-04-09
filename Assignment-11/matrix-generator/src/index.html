@@ -48,7 +48,7 @@
       document.write('<div class="container">')
       document.write('<table class = "table table-striped table-bordered table-hover">')
 
-      document.write("<center><h1>Below is a Matrix with ", rows, " rows and ", cols, " columns -----> </h1></center><br>")
+      document.write("<center><h1>Below is a Matrix with ", rows, " rows and ", cols, " columns:</h1></center><br>")
 
       console.log(matrix)
 
@@ -88,7 +88,7 @@
       document.write('<table class = "table table-striped table-bordered table-hover">')
 
 
-      document.write("<center><h1>Below is Transpose of the Matrix above -----> </h1></center><br>")
+      document.write("<center><h1>Below is Transpose of the Matrix above:</h1></center><br>")
 
     
 
@@ -108,6 +108,8 @@
 
       if(rows == cols) {
         document.write("<center><h1 style = 'font-family:tahoma; color:green'>Total sum of the matrix = ", totalSum, "</h1></center><br>")
+      }else{
+        document.write("</h2></center><br><br><center><p class='bg-warning'>The matrix should be a square matrix to compute the total sum</p></center>")
       }
 
     
