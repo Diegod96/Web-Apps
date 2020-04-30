@@ -22,7 +22,7 @@
     "@popperjs/core": "^2.2.1",
     "@types/mathjs": "^6.0.5",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "math.js": "^1.1.46",
     "mathjs": "^6.6.2",
     "popper.js": "^1.16.1",
